@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block title %}About - Watershed Management{% endblock %}
+
+{% block header %}About Watershed Management Project{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card shadow mb-4">
+            <div class="card-body">
+                <h2>Project Overview</h2>
+                <p>The Watershed Management Project is an initiative aimed at effectively managing and conserving water resources across various states and districts in India. This web application provides tools for visualizing watershed data and predicting project costs based on historical information.</p>
+
+                <h2>Key Features</h2>
+                <ul>
+                    <li>Interactive dashboard displaying total projects, area covered, and costs</li>
+                    <li>State-wise and district-wise data visualization</li>
+                    <li>Machine learning-based cost prediction tool for new projects</li>
+                    <li>User authentication system for secure access</li>
+                </ul>
+
+                <h2>How It Works</h2>
+                <p>Our application uses historical data from various watershed management projects across India. The dashboard provides an overview of the current state of projects, while the prediction tool uses machine learning algorithms to estimate costs for new projects based on location and area.</p>
+
+                <h2>Data Sources</h2>
+                <p>The data used in this application is sourced from government records, satellite imagery, and on-ground surveys conducted by various agencies involved in watershed management across India. We regularly update our database to ensure the most accurate and current information is available to our users.</p>
+
+                <h2>Technology Stack</h2>
+                <ul>
+                    <li>Backend: Python with Flask framework</li>
+                    <li>Database: MongoDB</li>
+                    <li>Frontend: HTML, CSS, JavaScript with Bootstrap for responsive design</li>
+                    <li>Data Visualization: Plotly.js</li>
+                    <li>Machine Learning: Scikit-learn for predictive modeling</li>
+                </ul>
+
+                <h2>Get Started</h2>
+                <p>To use the application, please sign up for an account or log in if you already have one. Once logged in, you can access the dashboard to view overall statistics and trends, or use the cost prediction tool to estimate expenses for new watershed management projects in your area.</p>
+
+                <h2>Future Enhancements</h2>
+                <p>We are continuously working to improve the Watershed Management Project. Some of the features we plan to implement in the near future include:</p>
+                <ul>
+                    <li>Integration with real-time weather data for more accurate predictions</li>
+                    <li>Advanced reporting tools for generating customized reports</li>
+                    <li>Mobile application for on-field data collection and analysis</li>
+                    <li>Collaboration tools for stakeholders to share insights and best practices</li>
+                </ul>
+
+                <h2>Contact</h2>
+                <p>For more information, support, or to provide feedback, please contact the Watershed Management Team at:</p>
+                <p>Email: support@watershedmanagement.gov.in</p>
+                <p>Phone: +91 (11) 2345-6789</p>
+                <p>Address: Ministry of Water Resources, Shram Shakti Bhawan, Rafi Marg, New Delhi - 110001, India</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
