@@ -16,7 +16,6 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key_here'
 
 
-# Use your actual connection string
 connection_string = "mongodb+srv://sohamnsharma:rdcv4c75@watershed.xbd1e.mongodb.net/?retryWrites=true&w=majority&appName=Watershed"
 client = MongoClient(connection_string, tlsCAFile=certifi.where())
 db = client['watershed_management']
