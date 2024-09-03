@@ -42,18 +42,12 @@ To use the application:
 
 ## Future Enhancements
 
-We are continuously working to improve the Watershed Management Project. Planned features include:
+We can continuously work on this to improve the Watershed Management Project. 
+Planned features may include:
 
 - **Integration with Real-time Weather Data**: For more accurate predictions.
 - **Advanced Reporting Tools**: To generate customized reports.
 - **Mobile Application**: For on-field data collection and analysis.
 - **Collaboration Tools**: For stakeholders to share insights and best practices.
 
-## Contact
-
-For more information, support, or to provide feedback, please contact the Watershed Management Team at:
-
-- **Email**: [support@watershedmanagement.gov.in](mailto:support@watershedmanagement.gov.in)
-- **Phone**: +91 (11) 2345-6789
-- **Address**: Ministry of Water Resources, Shram Shakti Bhawan, Rafi Marg, New Delhi - 110001, India
 
