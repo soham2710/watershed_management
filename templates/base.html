@@ -14,6 +14,8 @@
     
     .sidebar {
         min-height: 100vh;
+        display: flex;
+        flex-direction: column;
     }
     
     .sidebar-heading {
@@ -58,6 +60,19 @@
         margin-right: 0;
         padding: 1rem;
     }
+
+    .footer {
+        margin-top: auto;
+        padding: 1rem;
+        text-align: center;
+        color: #fff;
+        background-color: #224abe;
+        font-size: 0.9rem;
+    }
+
+    .footer i {
+        color: red;
+    }
     </style>
 </head>
 <body>
@@ -87,6 +102,10 @@
                             </a>
                         </li>
                     </ul>
+                </div>
+                <!-- Footer -->
+                <div class="footer">
+                    Made with <i class="fas fa-heart"></i> by Soham Sharma
                 </div>
             </nav>
 
