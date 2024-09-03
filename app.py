@@ -185,5 +185,5 @@ def get_districts():
 
 if __name__ == '__main__':
     cache_model()
-    app.run(debug=True)
+    app.run(debug=False)
 
